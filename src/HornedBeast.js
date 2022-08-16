@@ -11,7 +11,9 @@ class HornedBeast extends React.Component {
   render(){
     return (
       <div className="hornedBeast">
-        {this.props.name}
+        {this.props.title}
+        {this.props.description}
+        {this.props.imgUrl}
         
       </div>
     );

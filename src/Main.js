@@ -12,8 +12,8 @@ class Main extends React.Component {
   render(){
     return (
       <main className="main">
-        <HornedBeast name="Rhino" />
-        <HornedBeast name="Ram" />
+        <HornedBeast title="Ram" description="Ram looking at camera" />
+        <HornedBeast title="Rhino" description="Rhino looking fierce"/>
         
       </main>
     );
