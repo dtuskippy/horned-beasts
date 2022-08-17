@@ -1,6 +1,7 @@
 import React from 'react';
-import App from './App';
-import './hornedBeast.css'
+import './hornedBeast.css';
+
+
 
 class HornedBeast extends React.Component {
 
@@ -11,9 +12,9 @@ class HornedBeast extends React.Component {
   render(){
     return (
       <div className="hornedBeast">
-        {this.props.title}
-        {this.props.description}
-        {this.props.imgUrl}
+       <h2>{this.props.title}</h2>
+       <p>{this.props.description}</p>
+       <img src={this.props.img_url} alt="Horned Beast" />
         
       </div>
     );
