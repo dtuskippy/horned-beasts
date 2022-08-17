@@ -1,7 +1,7 @@
 import React from 'react';
-import App from './App';
 import HornedBeast from './HornedBeast.js'
 import './main.css'
+import beastObjects from './data.json';
 
 class Main extends React.Component {
 
@@ -11,11 +11,12 @@ class Main extends React.Component {
 
   render(){
     return (
-      <main className="main">
-        <HornedBeast title="Ram" description="Ram looking at camera" />
-        <HornedBeast title="Rhino" description="Rhino looking fierce"/>
+      // <main className="main">
+        <HornedBeast title={"UniWhal"} img_url={"http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg"} description={beastObjects[0].description} />
         
-      </main>
+        
+        
+      // </main>
     );
    }
 
