@@ -1,0 +1,28 @@
+.hornedBeast {
+  color: #00308F;
+}
+
+h3 {
+  color: #a83f39;
+}
+
+
+.grid {
+  border: 1px solid red;
+  display:flex;
+  flex-direction:column;
+  padding: 1em;
+  row-gap: 2em;
+}
+
+.item {
+  border: 1px solid black;
+  padding: 2em;
+}
+
+.row {
+  border: 1px solid greenyellow;
+  display:flex;
+  column-gap: 2em;
+  padding: 1em;
+}
