@@ -1,12 +1,11 @@
 import React from 'react';
-import App from './App';
 import './footer.css';
 
 class Footer extends React.Component {
 
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   render(){
     return (
